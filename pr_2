@@ -1,0 +1,12 @@
+#include<iostream.h>
+#include<conio.h>
+int age;
+cout<<"enter your age";
+cin>>age;
+if(18>age)
+cout<<"eligible for voting";
+else
+cout<<"not eligible for voting";
+getch();
+return 0;
+}
